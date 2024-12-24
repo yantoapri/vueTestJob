@@ -1,5 +1,5 @@
 <script setup>
-import { RouterView, RouterLink, useRouter } from 'vue-router';
+import { RouterView, RouterLink } from 'vue-router';
 import {
   BNavbar,
   BNavbarToggle,
@@ -8,10 +8,9 @@ import {
   BNavItemDropdown,
   BDropdownItem
 } from 'bootstrap-vue-next'
-const router = useRouter();
 function logout() {
   localStorage.removeItem("userLogin");
-  router.push('/')
+  window.location.href = "/"
 }
 </script>
 <template>

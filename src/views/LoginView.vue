@@ -30,10 +30,10 @@ async function login() {
     if (!error.value.email && !error.value.password) {
         let res = await store.authLogin(form);
         if (res) {
-            router.push({ path: '/admin/' })
+            window.location.href = "/admin/"
         } else {
             // swal(res.message, { icon: "error" });
-            router.push({ path: '/admin/' })
+            window.location.href = "/admin/"
         }
     }
 }
