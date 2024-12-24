@@ -1,0 +1,30 @@
+{
+  "name": "vuetestjob",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.26.17",
+    "datatables.net-vue3": "^3.0.3",
+    "font-awesome": "^4.7.0",
+    "pinia": "^2.2.6",
+    "vue": "^3.5.13",
+    "vue-fontawesome-icon": "^1.3.2",
+    "vue-router": "^4.4.5",
+    "vue-sweetalert2": "^5.0.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.1",
+    "vite-plugin-vue-devtools": "^7.6.5"
+  }
+}
