@@ -2,8 +2,6 @@
 
 This template should help get you started developing with Vue 3 in Vite,support [Vue-Bootstrap 5](https://bootstrap-vue-next.github.io/bootstrap-vue-next/docs.html) and [Pinia](https://pinia.vuejs.org/getting-started.html). Develop By Apriyanto. Yogyakarta Indonesia.
 
-## Live Demo
-[LIVE DEMO](https://vuetesjob.netlify.app)
 
 ## Recommended IDE Setup
 
